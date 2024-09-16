@@ -52,12 +52,19 @@ body{
     font-weight: 700;
    
 }
-
+#cta-button:active{
+    background-color: bisque;
+    
+}
+#content-design-check-content{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
 .content-design-check-text{
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 17px;
+    margin-bottom: 17px;
 }
 .content-design-check-text img{
     margin-right: 12px;
