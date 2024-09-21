@@ -76,6 +76,13 @@ body{
     margin-top: 15px;
 }
 
+#error-message{
+    margin-top: 15px;
+    font-size: 12px;
+    display: none;
+    color: red;
+}
+
 input{
     padding-top: 15px;
     padding-left: 15px;
@@ -83,4 +90,13 @@ input{
     border-radius: 5px;
     border-width: 1px;
     border-color: rgb(227, 227, 227);
+}
+#the-form{
+    display: flex;
+    flex-direction: column;
+}
+#form-labels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

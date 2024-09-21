@@ -39,8 +39,11 @@
     </div>
       <div class="content-design-cta">
         <!-- input here -->
-         <form onsubmit="handleSubmit(event)">
-            <label id="email-label">Email address</label>
+         <form id="the-form" onsubmit="handleSubmit(event)">
+            <div id="form-labels">
+              <label id="email-label">Email address</label>
+              <label id="error-message">Valid email required</label>
+            </div>
             <input id="email-input" class="content-design-cta-item" placeholder="email@company.com" required/>
             <button type="submit" class="content-design-cta-item" id="cta-button">Subscribe to monthly newsletter</button>
         </form>
