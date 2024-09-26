@@ -23,5 +23,5 @@ function handleSubmit(event){
 
 function dismiss(){
     document.getElementById('content-design').style.display='inline'
-    document.getElementById('content-success').style.display='none'
+    document.getElementById('content-success').style.display='flex'
 }

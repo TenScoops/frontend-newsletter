@@ -21,7 +21,7 @@ body{
     padding-top: 10px;
     color: hsl(235, 18%, 20%);
 }
-.content-design-text p{
+p{
     font-size: 16px;
     letter-spacing: 0.4px;
     margin: 0;
@@ -101,6 +101,27 @@ input{
     justify-content: space-between;
 }
 
-#content-success{
+#content-success-div{
     display: none;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#content-success-content{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+#dismiss-button{
+    font-family: 'Roboto-bold', sans-serif;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: hsl(235, 18%, 26%);
+    color:white;
+    font-weight: 700;
 }

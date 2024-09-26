@@ -12,57 +12,60 @@
 </head>
 <body>
   <div class="content">
-  <!-- Sign-up form start -->
-  <div id="content-design">
-    <!--image here  -->
-    <img src="assets/images/illustration-sign-up-mobile.svg"/>
-    <div class="content-design-text">
-      <h1>Stay updated!</h1>
-      <p>Join 60,000+ product managers receiving monthly updates on: </p>
+    <!-- Sign-up form start -->
+    <div id="content-design">
+      <!--image here  -->
+      <img src="assets/images/illustration-sign-up-mobile.svg"/>
+      <div class="content-design-text">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on: </p>
 
-      <div id="content-design-check-content">
-      <!-- check marks here -->
-       <div class="content-design-check-text">
-        <img src="assets/images/icon-success.svg" height="18px"/>
-        <p>Product discovery and building what matters</p>
-      </div>
+        <div id="content-design-check-content">
+        <!-- check marks here -->
+        <div class="content-design-check-text">
+          <img src="assets/images/icon-success.svg" height="18px"/>
+          <p>Product discovery and building what matters</p>
+        </div>
 
-      <div class="content-design-check-text">
-        <img src="assets/images/icon-success.svg" height="18px"/>
-        <p>Measuring to ensure updates are a success</p>
+        <div class="content-design-check-text">
+          <img src="assets/images/icon-success.svg" height="18px"/>
+          <p>Measuring to ensure updates are a success</p>
+        </div>
+        
+        <div class="content-design-check-text">
+          <img src="assets/images/icon-success.svg" height="18px"/>
+          <p>And much more!</p>
+        </div>
       </div>
-      
-      <div class="content-design-check-text">
-        <img src="assets/images/icon-success.svg" height="18px"/>
-        <p>And much more!</p>
+        <div class="content-design-cta">
+          <!-- input here -->
+          <form id="the-form" onsubmit="handleSubmit(event)">
+              <div id="form-labels">
+                <label id="email-label">Email address</label>
+                <label id="error-message">Valid email required</label>
+              </div>
+              <input id="email-input" class="content-design-cta-item" placeholder="email@company.com" required/>
+              <button type="submit" class="content-design-cta-item" id="cta-button">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
       </div>
     </div>
-      <div class="content-design-cta">
-        <!-- input here -->
-         <form id="the-form" onsubmit="handleSubmit(event)">
-            <div id="form-labels">
-              <label id="email-label">Email address</label>
-              <label id="error-message">Valid email required</label>
-            </div>
-            <input id="email-input" class="content-design-cta-item" placeholder="email@company.com" required/>
-            <button type="submit" class="content-design-cta-item" id="cta-button">Subscribe to monthly newsletter</button>
-        </form>
+      <!-- Sign-up form end -->
+
+    <div id="content-success">
+      <div id="content-success-content">
+        <img src="assets/images/icon-success.svg" height="52px"/>
+        <!-- Success message start -->
+        <h1>Thanks for subscribing!</h1>
+
+        <p>A confirmation email has been sent to ash@loremcompany.com. 
+        Please open it and click the button inside to confirm your subscription.</p>
+
+        <button onclick="dismiss()" id="dismiss-button">Dismiss message</button>
+        <!-- Success message end -->
       </div>
     </div>
   </div>
-    <!-- Sign-up form end -->
-
-  <div id="content-success">
-    <!-- Success message start -->
-    <h1>Thanks for subscribing!</h1>
-
-    <p>A confirmation email has been sent to ash@loremcompany.com. 
-    Please open it and click the button inside to confirm your subscription.</p>
-
-    <button onclick="dismiss()" id="dismiss-message">Dismiss message</button>
-    <!-- Success message end -->
-  </div>
-</div>
 
   <script src="index.js"></script>
 </body>
