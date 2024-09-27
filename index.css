@@ -101,6 +101,13 @@ input{
     justify-content: space-between;
 }
 
+#content-success{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
 #content-success-div{
     display: none;
     align-items: center;
@@ -112,6 +119,7 @@ input{
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 10px;
+    padding-bottom: 100px;
 }
 
 #dismiss-button{
@@ -124,4 +132,14 @@ input{
     background-color: hsl(235, 18%, 26%);
     color:white;
     font-weight: 700;
+    width: 100%;
+    position: relative;
+    /* bottom: -320px; */
+}
+
+.success-header{
+    font-size: 37px;
+}
+.success-msg{
+    line-height: 25px;
 }
